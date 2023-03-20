@@ -12,7 +12,6 @@ import (
 
 type BaseFlip struct {
 	idempotencyKey string
-	error          error
 	errorDetails   []constants.ErrorDetailModel
 }
 
