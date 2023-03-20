@@ -1,7 +1,63 @@
-# flip - Unofficial Flip Golang Interface
+# Go-Flip - Unofficial Flip Golang Interface
+
+# Descriptions
+This package is interface for api https://docs.flip.id/, you only need to add ENV and add this package to your project.
+
+# Features
+1. Have collections of constants that used in the flip environment
+2. Easy to use, doesn't need to add authentication every function, the package handle it by getting it from ENV.
+# Endpoints
+- [Generals](https://docs.flip.id/#general)
+	- Get Balance
+	- Get Bank Info
+	- Is Maintenance
+	- Bank Account Inquiry (failed testing)
+- [Money Transfer](https://docs.flip.id/#money-transfer)
+	- Create Disbursement
+	- Get All Disbursement
+	- Get Disbursement By Idempotency Key (failed testing)
+	- Get Disbursement By ID (failed testing)
+- [Special Money Transfer](https://docs.flip.id/#special-money-transfer)
+	- Create Special Disbursement
+	- City List
+	- Country List
+	- City and Country List
+- [Agent Money Transfer](https://docs.flip.id/#agent-money-transfer)
+	- Create Disbursement for Agent
+	- Get Agent Disbursement by ID
+	- Get Agent Disbursement List
+- [Agent Verification](https://docs.flip.id/#agent-verification)
+	- Create Agent Identity
+	- Update Agent Identity
+	- Get Agent Identity
+	- Upload Agent Identity Image
+	- Upload Supporting Documents
+	- KYC Submission
+	- Repair Data
+	- Repair Identity Image
+	- Repair Identity Selfie Image
+	- Get Country List
+	- Get Province List
+	- Get City List
+	- Get District List
+- [Accept Payment](https://docs.flip.id/#accept-payment)
+	- Create Bill
+	- Edit Bill
+	- Get Bill
+	- Get All Bills
+	- Get Payment
+	- Get All Payment
+	- Confirm Bill Payment (**ONLY FOR PRODUCTION**)
+- [International Transfer](https://docs.flip.id/#international-transfer)
+	- Get Exchange Rates
+	- Get Form Data
+	- Create International Transfer C2C/C2B
+	- Create International Transfer B2C/B2B (**NOT FOUND** need confirmation)
+	- Get International Transfer
+	- Get All International Transfer
 
 # TODO
-- Validation before send to Flip
+- Validation, flip already have validation on their end, but it will be more helpfull if we validate first before sending to flip
 - Documentations
 - Unit Tests
 
