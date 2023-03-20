@@ -3,9 +3,9 @@ package flip
 import (
 	"fmt"
 
-	"github.com/fari-99/flip/constants"
-	"github.com/fari-99/flip/models"
-	"github.com/fari-99/flip/requests"
+	"github.com/fari-99/go-flip/constants"
+	"github.com/fari-99/go-flip/models"
+	"github.com/fari-99/go-flip/requests"
 )
 
 func (base *BaseFlip) CreateBill(formData models.CreateBillRequest) (bill *models.CreateBillResponse, idempotencyKey string, err error) {

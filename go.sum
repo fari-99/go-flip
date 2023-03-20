@@ -1,5 +1,3 @@
-github.com/fari-99/flip v1.0.1 h1:TpYZiGUhva6dAva2/Z3tgVcufRV6+lOM7K6pzrFAGFk=
-github.com/fari-99/flip v1.0.1/go.mod h1:vs+2wF4OeP2CR+ydUhVo6suLxOcjQvcX6ecIeem+Lxs=
 github.com/frankban/quicktest v1.14.3 h1:FJKSZTDHjyhriyC81FLQ0LY93eSai0ZyR/ZIkd3ZUKE=
 github.com/go-resty/resty/v2 v2.7.0 h1:me+K9p3uhSmXtrBZ4k9jcEAfJmuC8IivWHwaLZwPrFY=
 github.com/go-resty/resty/v2 v2.7.0/go.mod h1:9PWDzw47qPphMRFfhsyk0NnSgvluHcljSMVIq3w7q0I=

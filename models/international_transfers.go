@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/fari-99/flip/requests"
+	"github.com/fari-99/go-flip/requests"
 )
 
 type ExchangeRateArrivalMessage struct {

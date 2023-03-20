@@ -5,9 +5,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/fari-99/flip/constants"
-	"github.com/fari-99/flip/models"
-	"github.com/fari-99/flip/requests"
+	"github.com/fari-99/go-flip/constants"
+	"github.com/fari-99/go-flip/models"
+	"github.com/fari-99/go-flip/requests"
 )
 
 type BaseFlip struct {

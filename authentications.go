@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/fari-99/flip/constants"
+	"github.com/fari-99/go-flip/constants"
 )
 
 func CheckCallback(token string) (valid bool, err error) {

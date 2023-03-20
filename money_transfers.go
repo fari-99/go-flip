@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/fari-99/flip/constants"
-	"github.com/fari-99/flip/models"
-	"github.com/fari-99/flip/requests"
+	"github.com/fari-99/go-flip/constants"
+	"github.com/fari-99/go-flip/models"
+	"github.com/fari-99/go-flip/requests"
 )
 
 func (base *BaseFlip) CreateDisbursement(formData models.CreateDisbursementRequest) (responseModel *models.CreateDisbursementResponse, idempotencyKey string, err error) {

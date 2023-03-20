@@ -12,7 +12,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/spf13/cast"
 
-	"github.com/fari-99/flip/constants"
+	"github.com/fari-99/go-flip/constants"
 )
 
 type RequestFlip struct {

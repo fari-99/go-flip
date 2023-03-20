@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/fari-99/flip/requests"
+	"github.com/fari-99/go-flip/requests"
 )
 
 /*

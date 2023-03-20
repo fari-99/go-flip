@@ -68,7 +68,7 @@ This package is interface for api https://docs.flip.id/, you only need to add EN
 With [Go module](https://github.com/golang/go/wiki/Modules) support, simply add the following import
 
 ```
-import "github.com/fari-99/flip"
+import "github.com/fari-99/go-flip"
 ```
 
 to your code, and then `go [build|run|test]` will automatically fetch the necessary dependencies.
@@ -76,7 +76,7 @@ to your code, and then `go [build|run|test]` will automatically fetch the necess
 Otherwise, run the following Go command to install the `flip` package:
 
 ```sh
-$ go get -u github.com/fari-99/flip
+$ go get -u github.com/fari-99/go-flip
 ```
 
 Add Environment variable to your project
@@ -96,7 +96,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/fari-99/flip"
+	"github.com/fari-99/go-flip"
 )
 
 func main() {
@@ -123,7 +123,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/fari-99/flip"
+	"github.com/fari-99/go-flip"
 )
 
 func main() {
